@@ -11,8 +11,8 @@ To execute the programs from the command shell, do the following steps: \
 			>> python \<filename\>.py \
     > 3. Some of the programs are interactive in nature, so input from the user is expected, the nature of which is clearly explained to the user.
     > 4. *ngram_2_3_4.py* asks the user to give the value of "n" between 2 and 4 to create the "n"-gram model. This program uses *text2* from *nltk.book* as the corpus,  which can be imported using the following statement: \
-				>> from nltk.book import * \
-					>> or \
-				>> from nltk.book import text2 \
+				<div align="center"> from nltk.book import * \
+				<div align="center"> or \
+				<div align="center"> from nltk.book import text2 \
 
 		
