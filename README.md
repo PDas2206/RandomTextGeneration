@@ -1,0 +1,4 @@
+# RandomTextGeneration
+In this assignment, you will reimplement the \Dissociated Press" system that was developed by MIT students in the 1970s (see Wikipedia). The purpose of this system is to generate random text from an n-gram model over a corpus. Train an instance of the n-gram class from Piazza using a corpus of your choice (from Problem 1 or elsewhere), and name it ngram. You can then use ngram[context] to determine the probability distribution for the next
+word given the previous n 􀀀 1 words. Given this distribution, you can use the method generate from the NLTK class ProbDistI to generate the next random word. Use your system to produce a number of text samples, 100 words in length per each. Vary n from 2 to 4. Submit a few interesting texts that your system generates, and discuss how the quality (and creativity) of the generated outputs changes with n. Also submit your source code, and document any
+dependencies, such as links to the selected corpora.
